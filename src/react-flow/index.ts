@@ -13,9 +13,10 @@ export * from './additional-components';
 export * from './store/hooks';
 export * from './types';
 
-export { ReactFlowProps } from './container/ReactFlow';
-export { MiniMapProps } from './additional-components/MiniMap';
-export { ControlProps } from './additional-components/Controls';
-export { BackgroundProps } from './additional-components/Background';
+export type { ReactFlowProps } from './container/ReactFlow';
 
-export { FlowElement } from "./types";
+export type { MiniMapProps } from './additional-components/MiniMap';
+export type { ControlProps } from './additional-components/Controls';
+export type { BackgroundProps } from './additional-components/Background';
+
+export type { FlowElement } from "./types";

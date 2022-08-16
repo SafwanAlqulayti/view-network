@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Editor } from "./Editor";
-import { NetworkPolicyViewer } from "./NetworkPolicyViewer";
+import * as Network from "./NetworkPolicyViewer";
 import "github-fork-ribbon-css/gh-fork-ribbon.css"
 
 const defaultNetworkPolicy =
@@ -52,7 +52,7 @@ export function App(){
 
     return (
         <main style={{ display: 'flex' }}>
-            <NetworkPolicyViewer
+            <Network.NetworkPolicyViewer
                 networkPolicy={networkPolicy}
                 style={{ display: "flex", width: "60%", height: '100vh' }}
                 canvasStyle={{ width: "100%", height: '100vh'}}
