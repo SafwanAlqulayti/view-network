@@ -1,2 +1,2 @@
-import { NetworkPolicyViewer, NetworkPolicyViewerProps } from "./client/components/NetworkPolicyViewer";
-export { NetworkPolicyViewer, NetworkPolicyViewerProps };
+export { NetworkPolicyViewer } from './client/components/NetworkPolicyViewer';
+export type { NetworkPolicyViewerProps } from "./client/components/NetworkPolicyViewer";

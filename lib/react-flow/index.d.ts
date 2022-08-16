@@ -9,8 +9,8 @@ export { isNode, isEdge, removeElements, addEdge, getOutgoers, getIncomers, getC
 export * from './additional-components';
 export * from './store/hooks';
 export * from './types';
-export { ReactFlowProps } from './container/ReactFlow';
-export { MiniMapProps } from './additional-components/MiniMap';
-export { ControlProps } from './additional-components/Controls';
-export { BackgroundProps } from './additional-components/Background';
-export { FlowElement } from "./types";
+export type { ReactFlowProps } from './container/ReactFlow';
+export type { MiniMapProps } from './additional-components/MiniMap';
+export type { ControlProps } from './additional-components/Controls';
+export type { BackgroundProps } from './additional-components/Background';
+export type { FlowElement } from "./types";

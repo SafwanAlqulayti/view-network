@@ -6,12 +6,6 @@
         "modules": false
       }
     ],
-    [
-      "@babel/preset-typescript",
-      {
-        "isTSX": true
-      }
-    ],
     "@babel/preset-react"
   ],
   "plugins": [
